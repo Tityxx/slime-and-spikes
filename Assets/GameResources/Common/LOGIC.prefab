@@ -142,8 +142,8 @@ MonoBehaviour:
   rightPoint: {fileID: 8445109165999973592}
   downPoint: {fileID: 8445109165322417488}
   yPos: -3
-  presetsOnStart: 2
-  scrollingSpeed: 3
+  presetsOnStart: 1
+  scrollingSpeed: 5
   maxEasyScore: 5
   maxMediumScore: 10
   easyContainer: {fileID: 11400000, guid: 4fc6d61756ce4994b9eb1fc3f19b947d, type: 2}

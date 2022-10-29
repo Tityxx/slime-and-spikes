@@ -101,6 +101,7 @@ public class LevelManager : MonoBehaviour
 
     private void RemoveFirstPreset()
     {
+        Destroy(presets[0].gameObject);
         presets.RemoveAt(0);
         SpawnPreset();
         score++;
