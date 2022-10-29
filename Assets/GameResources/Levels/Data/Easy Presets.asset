@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 493ad1b7216fe8047a18f8fc3a37acf8, type: 3}
+  m_Name: Easy Presets
+  m_EditorClassIdentifier: 
+  presets:
+  - {fileID: 8465755950762298112, guid: d7e558d2408dce94ca572a202e2ec109, type: 3}
+  - {fileID: 8465755950762298112, guid: 5980807d4dc08484dbf8c6fa7fd77694, type: 3}

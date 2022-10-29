@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 493ad1b7216fe8047a18f8fc3a37acf8, type: 3}
+  m_Name: Medium Presets
+  m_EditorClassIdentifier: 
+  presets:
+  - {fileID: 8465755950762298112, guid: 220ef6f92d832104dba5fe19e54fd998, type: 3}
+  - {fileID: 8465755950762298112, guid: dd98410249d7d634bbe9187a13baef6a, type: 3}
