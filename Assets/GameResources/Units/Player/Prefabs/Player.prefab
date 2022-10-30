@@ -255,10 +255,10 @@ MonoBehaviour:
   leftPoint: {fileID: 6503460941705532023}
   rightPoint: {fileID: 6503460942137212459}
   isLeftSide: 0
-  moveDuration: 0.25
+  moveDuration: 0.15
   moveType: 1
-  invulnerableDuration: 2
-  invulnerableFrequence: 0.5
+  invulnerableDuration: 1
+  invulnerableFrequence: 0.25
 --- !u!1 &8723596720560377816
 GameObject:
   m_ObjectHideFlags: 0

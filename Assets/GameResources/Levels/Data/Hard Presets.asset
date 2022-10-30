@@ -14,4 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   presets:
   - {fileID: 8465755950762298112, guid: 6f0c82c4fd2bb044bb2c0b2b659c6b42, type: 3}
-  - {fileID: 8465755950762298112, guid: 039002d863e3c6d44a8249c5eefdee03, type: 3}
+  - {fileID: 8465755950762298112, guid: c9c93f3f09b5a2346976ecc170bcbc45, type: 3}
+  - {fileID: 8465755950762298112, guid: 51474fb663ff61e4497ce4d720e33448, type: 3}
+  - {fileID: 8465755950762298112, guid: 689a2bd9706b49e44ab222914b278b31, type: 3}
+  - {fileID: 8465755950762298112, guid: ca8492fd6205f5d448a0e9c3b28e414d, type: 3}
+  - {fileID: 8465755950762298112, guid: 18d5e97b7b3106741ab54e3873e6deb3, type: 3}

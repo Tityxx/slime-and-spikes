@@ -22,7 +22,9 @@ public class LevelManager : MonoBehaviour
     [SerializeField]
     private int presetsOnStart = 4;
     [SerializeField]
-    private float scrollingSpeed = 1f;
+    private AnimationCurve scrollingCurve;
+    [SerializeField]
+    private float scrollingSpeed = 4f;
 
     [Space]
     [SerializeField]
@@ -35,6 +37,8 @@ public class LevelManager : MonoBehaviour
     private LevelPresetsContainer mediumContainer;
     [SerializeField]
     private LevelPresetsContainer hardContainer;
+    [SerializeField]
+    private LevelPresetsContainer allContainer;
     [SerializeField]
     private List<LevelPreset> presets;
 
@@ -83,6 +87,8 @@ public class LevelManager : MonoBehaviour
     {
         while (enabled)
         {
+            scrollingSpeed = scrollingCurve.Evaluate(score);
+
             foreach (var preset in presets)
             {
                 Vector3 pos = preset.transform.position;
@@ -118,6 +124,7 @@ public class LevelManager : MonoBehaviour
 
     private LevelPresetsContainer GetContainer()
     {
+        if (allContainer != null) return allContainer;
         if (score < maxEasyScore) return easyContainer;
         else if (score < maxMediumScore) return mediumContainer;
         else return hardContainer;

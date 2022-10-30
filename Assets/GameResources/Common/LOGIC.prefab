@@ -143,12 +143,37 @@ MonoBehaviour:
   downPoint: {fileID: 8445109165322417488}
   yPos: -3
   presetsOnStart: 1
+  scrollingCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 5
+      inSlope: 0.06598423
+      outSlope: 0.06598423
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.033045247
+    - serializedVersion: 3
+      time: 120
+      value: 12
+      inSlope: 0.03174114
+      outSlope: 0.03174114
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.03215556
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
   scrollingSpeed: 5
   maxEasyScore: 5
   maxMediumScore: 10
   easyContainer: {fileID: 11400000, guid: 4fc6d61756ce4994b9eb1fc3f19b947d, type: 2}
   mediumContainer: {fileID: 11400000, guid: d68c6b86115386c45991a410f8df182f, type: 2}
   hardContainer: {fileID: 11400000, guid: f8b23ba98f41f2f4b829ccabb89f9e50, type: 2}
+  allContainer: {fileID: 11400000, guid: 2ae5af4ecb98a384c83603012c0ea842, type: 2}
   presets:
   - {fileID: 0}
 --- !u!1 &8445109165221720418
